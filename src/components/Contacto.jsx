@@ -21,7 +21,7 @@ const Contacto = () => (
         <img src={logowsp} alt="WhatsApp" />
       </a>
       <a
-        href="https://facebook.com/tuempresa"
+        href="https://facebook.com/profile.php?id=61579125650668"
         target="_blank"
         rel="noopener noreferrer"
       >
