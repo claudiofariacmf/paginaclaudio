@@ -10,11 +10,14 @@
     transform: translateY(0);
   }
 }
+body {
+  overflow-x: hidden;
+}
 
 .hero {
   font-family: "Rubik", sans-serif;
   position: relative;
-  width: 100vw;
+  width: 100%;
   min-height: 85vh;
   background: linear-gradient(
     to right,
