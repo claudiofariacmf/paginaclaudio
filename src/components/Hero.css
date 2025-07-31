@@ -86,7 +86,7 @@ body {
   padding: 0;
 }
 
-/* 📱 Mobile styles ultra reforzado */
+/* 📱 Mobile styles */
 @media (max-width: 768px) {
   .hero {
     min-height: auto;
@@ -98,7 +98,7 @@ body {
   }
 
   .hero h2 {
-    font-size: 1.7rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.4 !important;
     max-width: 100% !important;
     width: 100% !important;
