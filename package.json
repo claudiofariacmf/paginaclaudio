@@ -2,13 +2,13 @@
   "name": "mi-pagina",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://claudiofariacmf.github.io/paginaclaudio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
