@@ -85,32 +85,26 @@ body {
 
 /* 📱 Mobile styles */
 @media (max-width: 768px) {
-  .hero {
-    min-height: auto;
-    padding: 2rem 1rem;
-  }
-
   .hero h2 {
-    font-size: 1.8rem;
-    line-height: 1.3;
-    padding: 0 1rem;
-    word-break: break-word;
-    text-align: center;
-    animation: none;
+    font-size: 1.6rem !important;
+    font-family: "Rubik", sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    padding: 0 1rem !important;
   }
 
   .hero p {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding: 0 1rem;
-    margin-top: 1rem;
-    animation: none;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    padding: 0 1rem !important;
+    margin-top: 1rem !important;
+    text-align: center !important;
   }
 
-  .hero::before {
-    width: 160px;
-    height: 160px;
-    filter: blur(5px);
-    opacity: 0.08;
+  .hero {
+    padding: 2.5rem 1rem !important;
+    min-height: auto !important;
   }
 }
